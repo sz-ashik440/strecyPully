@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAAEB927A8405AAF495EEDBE /* Pods_Strechy_pully.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9EAF4D6518D04609116167 /* Pods_Strechy_pully.framework */; };
 		DAEC8F522155863A00B2A8FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC8F512155863A00B2A8FE /* AppDelegate.swift */; };
 		DAEC8F542155863A00B2A8FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC8F532155863A00B2A8FE /* ViewController.swift */; };
-		DAEC8F572155863A00B2A8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEC8F552155863A00B2A8FE /* Main.storyboard */; };
 		DAEC8F592155863C00B2A8FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEC8F582155863C00B2A8FE /* Assets.xcassets */; };
 		DAEC8F5C2155863C00B2A8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEC8F5A2155863C00B2A8FE /* LaunchScreen.storyboard */; };
+		DAEC8F6521559BF200B2A8FE /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAEC8F6421559BF200B2A8FE /* clouds.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		358199AD33AF321FFB4464E4 /* Pods-Strechy pully.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strechy pully.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strechy pully/Pods-Strechy pully.release.xcconfig"; sourceTree = "<group>"; };
+		5C9EAF4D6518D04609116167 /* Pods_Strechy_pully.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strechy_pully.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		628EE1288F46A55A163F1A7D /* Pods-Strechy pully.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strechy pully.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strechy pully/Pods-Strechy pully.debug.xcconfig"; sourceTree = "<group>"; };
 		DAEC8F4E2155863A00B2A8FE /* Strechy pully.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strechy pully.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEC8F512155863A00B2A8FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEC8F532155863A00B2A8FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAEC8F562155863A00B2A8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAEC8F582155863C00B2A8FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAEC8F5B2155863C00B2A8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAEC8F5D2155863C00B2A8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEC8F6421559BF200B2A8FE /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAEB927A8405AAF495EEDBE /* Pods_Strechy_pully.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CD12A016FD11A3CA107D70C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9EAF4D6518D04609116167 /* Pods_Strechy_pully.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20E77AE287FEFDF8B7BB4D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				628EE1288F46A55A163F1A7D /* Pods-Strechy pully.debug.xcconfig */,
+				358199AD33AF321FFB4464E4 /* Pods-Strechy pully.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DAEC8F452155863A00B2A8FE = {
 			isa = PBXGroup;
 			children = (
 				DAEC8F502155863A00B2A8FE /* Strechy pully */,
 				DAEC8F4F2155863A00B2A8FE /* Products */,
+				C20E77AE287FEFDF8B7BB4D0 /* Pods */,
+				5CD12A016FD11A3CA107D70C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,22 @@
 		DAEC8F502155863A00B2A8FE /* Strechy pully */ = {
 			isa = PBXGroup;
 			children = (
+				DAEC8F6321559BE600B2A8FE /* image */,
 				DAEC8F512155863A00B2A8FE /* AppDelegate.swift */,
 				DAEC8F532155863A00B2A8FE /* ViewController.swift */,
-				DAEC8F552155863A00B2A8FE /* Main.storyboard */,
 				DAEC8F582155863C00B2A8FE /* Assets.xcassets */,
 				DAEC8F5A2155863C00B2A8FE /* LaunchScreen.storyboard */,
 				DAEC8F5D2155863C00B2A8FE /* Info.plist */,
 			);
 			path = "Strechy pully";
+			sourceTree = "<group>";
+		};
+		DAEC8F6321559BE600B2A8FE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC8F6421559BF200B2A8FE /* clouds.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAEC8F602155863C00B2A8FE /* Build configuration list for PBXNativeTarget "Strechy pully" */;
 			buildPhases = (
+				8E66CFB1543EDA15F105BA0D /* [CP] Check Pods Manifest.lock */,
 				DAEC8F4A2155863A00B2A8FE /* Sources */,
 				DAEC8F4B2155863A00B2A8FE /* Frameworks */,
 				DAEC8F4C2155863A00B2A8FE /* Resources */,
+				632FEAAB30873B4ED2C1001C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +156,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEC8F6521559BF200B2A8FE /* clouds.jpg in Resources */,
 				DAEC8F5C2155863C00B2A8FE /* LaunchScreen.storyboard in Resources */,
 				DAEC8F592155863C00B2A8FE /* Assets.xcassets in Resources */,
-				DAEC8F572155863A00B2A8FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		632FEAAB30873B4ED2C1001C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Strechy pully/Pods-Strechy pully-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Strechy pully/Pods-Strechy pully-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E66CFB1543EDA15F105BA0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Strechy pully-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAEC8F4A2155863A00B2A8FE /* Sources */ = {
@@ -143,14 +216,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DAEC8F552155863A00B2A8FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAEC8F562155863A00B2A8FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAEC8F5A2155863C00B2A8FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +343,7 @@
 		};
 		DAEC8F612155863C00B2A8FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628EE1288F46A55A163F1A7D /* Pods-Strechy pully.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +361,7 @@
 		};
 		DAEC8F622155863C00B2A8FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358199AD33AF321FFB4464E4 /* Pods-Strechy pully.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

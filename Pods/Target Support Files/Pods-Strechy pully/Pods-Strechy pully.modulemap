@@ -1,0 +1,6 @@
+framework module Pods_Strechy_pully {
+  umbrella header "Pods-Strechy pully-umbrella.h"
+
+  export *
+  module * { export * }
+}
